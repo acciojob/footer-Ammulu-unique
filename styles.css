@@ -1,1 +1,53 @@
-/* your code here */
+.top{
+	height:50px;
+	padding:10px 10px;
+	display:flex;
+	justify-content:space-between;
+	background-color:#181818;
+	color:white;
+}
+.logo_name{
+	font-size:40px
+}
+.social-icons{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+}
+.media-icons{
+	height:30px;
+	width:30px;
+	border-radius:50%;
+	padding:5px;
+	margin-left:5px;
+}
+.link-boxes{
+	display:flex;
+	background-color:black;
+	min-height:200px;
+	padding:30px 20px;
+}
+.list li{
+	color:white;
+	list-style-type:none;
+	padding:3px;
+}
+.list li a{
+	text-decoration:none;
+	color:#AAAAAA;
+}
+.link-heading{
+	text-decoration:underline;
+}
+.bottom-details{
+	display:flex;
+	justify-content:space-between;
+	padding:0px 10px;
+	background-color:#181818;
+	color:white;
+}
+@media (max-width:768px){
+	.link-boxes{
+		flex-direction:column;
+	}
+}

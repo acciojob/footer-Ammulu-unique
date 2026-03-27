@@ -11,10 +11,10 @@
 }
 .social-icons{
 	display:flex;
-	flex-direction:row;
 	justify-content:flex-end;
 }
 .media-icons{
+	display:flex;
 	height:30px;
 	width:30px;
 	border-radius:50%;

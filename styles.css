@@ -9,11 +9,11 @@
 .logo_name{
 	font-size:40px
 }
-.social-icons{
+.media-icons{
 	display:flex;
 	justify-content:flex-end;
 }
-.media-icons{
+.social-icons{
 	display:flex;
 	height:30px;
 	width:30px;

@@ -13,8 +13,12 @@
 	display:flex;
 	justify-content:flex-end;
 }
-.social-icons{
-	display:flex;
+
+.media-icons a{
+	display:flex; /* required for test */
+}
+
+.media-icons img{
 	height:30px;
 	width:30px;
 	border-radius:50%;
